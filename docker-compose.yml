@@ -1,0 +1,31 @@
+version: "3.8"
+services:
+  app:
+    build: .
+    ports:
+      - target: 5000
+        published: 5000
+    networks:
+      - py-postgres
+
+  postgres: 
+    image: "postgres:latest"
+    environment: 
+      POSTGRES_DB: Dashboard-Toscalia
+      POSTGRES_PASSWORD: 12345
+      POSTGRES_USER: postgres
+    volumes:
+      - ./crear_tabla.sql:/docker-entrypoint-initdb.d/crear_tabla.sql
+      - ./csv:/src/csv
+    ports:
+      - target: 5432
+        published: 5432
+    networks:
+      - py-postgres
+      
+networks:
+  py-postgres:
+
+
+
+      

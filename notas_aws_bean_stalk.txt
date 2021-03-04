@@ -1,0 +1,7 @@
+Instalar psycopg2 como psycopg2-binary
+Utilizar alias o el nombre de application en el archivo application.py
+Elastic Beanstalk trabaja con gunicorn
+No usar carpetas con nombre app
+Para configurar gunicorn se usa archivo Procfile
+En el archivo procfile se debe especificar la carpeta que contiene el archivo donde esta la función que crea el app de flask
+Ejemplo: web: gunicorn --bind :8000 'src:create_app()'  src es la carpeta y create_app() la funcion dentro del archivo __init__.py

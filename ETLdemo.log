@@ -1,0 +1,901 @@
+INFO:__main__:2021-02-02 14:36:42.214149 Iniciando proceso ETL
+INFO:__main__:2021-02-02 14:36:42.214149 Iniciando metodo para creacion de dataframe notven
+INFO:__main__:2021-02-02 14:36:42.214149 Iniciando metodo de lectura de tablas DBF y conversion a DataFrame
+INFO:__main__:2021-02-02 14:38:06.737860 Terminado metodo de lectura de tablas DBF y conversion a DataFrame
+INFO:__main__:2021-02-18 14:04:53.071787 Iniciando proceso ETL
+INFO:__main__:2021-02-18 14:04:53.072743 Iniciando metodo para creacion de dataframe notven
+INFO:__main__:2021-02-18 14:04:53.072743 Iniciando metodo de lectura de tablas DBF y conversion a DataFrame
+INFO:__main__:2021-02-18 14:07:29.576476 Terminado metodo de lectura de tablas DBF y conversion a DataFrame
+INFO:__main__:2021-02-18 14:07:29.588661 Iniciando metodo de selección de columnas dataframe creado
+INFO:__main__:2021-02-18 14:07:29.970524 Terminado metodo de selección de columnas dataframe creado
+INFO:__main__:2021-02-18 14:07:29.970524 Iniciando metodo de limpieza de columnas
+INFO:__main__:2021-02-18 14:07:29.970524 Iniciando metodo de limpieza de valores NAN
+INFO:__main__:2021-02-18 14:07:30.665907 Terminado metodo de limpieza de valores NAN
+INFO:__main__:2021-02-18 14:07:30.742812 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:07:31.368887 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:07:31.369877 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:07:33.775683 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:07:33.776676 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:07:33.776676 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:07:33.776676 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:07:33.777682 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:07:33.777682 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:07:33.777682 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:07:33.777682 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:07:33.778682 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:07:33.778682 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:07:34.179793 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:07:34.179793 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:07:37.145101 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:07:37.145101 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:07:37.724519 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:07:37.724519 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:07:41.999407 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:07:41.999407 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:07:42.568879 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:07:42.569862 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:07:46.791599 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:07:46.791599 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:07:47.581361 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:07:47.582361 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:07:50.154864 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:07:50.154864 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:07:50.745701 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:07:50.745701 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:07:53.910980 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:07:53.910980 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:07:53.911929 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:07:53.911929 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:07:53.911929 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:07:53.911929 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:07:54.456979 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:07:54.456979 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:07:58.339598 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:07:58.340886 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:07:58.340886 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:07:58.341842 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:07:58.341842 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:07:58.342835 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:07:58.343342 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:07:58.343342 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:07:58.343842 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:07:58.344842 Terminado metodo de limpieza de columnas
+INFO:__main__:2021-02-18 14:07:58.344842 Iniciando metodo para renombrar columnas a minusculas
+INFO:__main__:2021-02-18 14:07:58.345833 Terminado metodo para renombrar columnas a minusculas
+INFO:__main__:2021-02-18 14:07:58.485929 Iniciando metodo para quitar I.V.A. del precio de columna de precio
+INFO:__main__:2021-02-18 14:07:58.499929 Terminado metodo para quitar I.V.A. del precio de columna de precio
+INFO:__main__:2021-02-18 14:07:58.499929 Terminado metodo para creacion de dataframe notven
+INFO:__main__:2021-02-18 14:07:58.805077 Iniciando metodo para creacion de dataframe inventario
+INFO:__main__:2021-02-18 14:07:58.805077 Iniciando metodo de lectura de tablas DBF y conversion a DataFrame
+INFO:__main__:2021-02-18 14:08:06.253495 Terminado metodo de lectura de tablas DBF y conversion a DataFrame
+INFO:__main__:2021-02-18 14:08:06.290041 Iniciando metodo de selección de columnas dataframe creado
+INFO:__main__:2021-02-18 14:08:06.292041 Terminado metodo de selección de columnas dataframe creado
+INFO:__main__:2021-02-18 14:08:06.292041 Iniciando metodo de limpieza de columnas
+INFO:__main__:2021-02-18 14:08:06.292041 Iniciando metodo de limpieza de valores NAN
+INFO:__main__:2021-02-18 14:08:06.295095 Terminado metodo de limpieza de valores NAN
+INFO:__main__:2021-02-18 14:08:06.296091 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:08:06.301077 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:08:06.301077 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:08:06.331044 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:08:06.331044 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:08:06.337089 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:08:06.338093 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:08:06.362311 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:08:06.362311 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:08:06.362311 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:08:06.362311 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:08:06.363144 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:08:06.363144 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:08:06.366143 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:08:06.366143 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:08:06.385130 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:08:06.385130 Terminado metodo de limpieza de columnas
+INFO:__main__:2021-02-18 14:08:06.385130 Iniciando metodo para renombrar columnas a minusculas
+INFO:__main__:2021-02-18 14:08:06.386164 Terminado metodo para renombrar columnas a minusculas
+INFO:__main__:2021-02-18 14:08:06.386164 Terminado metodo para creacion de dataframe inventario
+INFO:__main__:2021-02-18 14:08:06.388164 Iniciando metodo para realizar merge de dataframes notven e inventario
+INFO:__main__:2021-02-18 14:08:13.141041 Terminado metodo para realizar merge de dataframes notven e inventario
+INFO:__main__:2021-02-18 14:08:13.142044 Iniciando metodo para abrir archivo Catalogo de Meseros.csv y creacion dataframe cat_meseros
+INFO:__main__:2021-02-18 14:08:13.168380 Terminado metodo para abrir archivo Catalogo de Meseros.csv y creacion dataframe cat_meseros
+INFO:__main__:2021-02-18 14:08:13.168380 Iniciando metodo para creacion de dataframe tabla_maesta
+INFO:__main__:2021-02-18 14:08:17.920418 Iniciando metodo de cambio de formato de columna hora
+INFO:__main__:2021-02-18 14:08:18.928552 Terminado metodo de cambio de formato de hora
+INFO:__main__:2021-02-18 14:08:19.184012 Terminado metodo para creacion de dataframe tabla_maesta
+INFO:__main__:2021-02-18 14:08:37.621903 Terminado proceso ETL
+INFO:__main__:2021-02-18 14:14:07.300974 Iniciando proceso ETL
+INFO:__main__:2021-02-18 14:14:07.300974 Iniciando metodo para creacion de dataframe notven
+INFO:__main__:2021-02-18 14:14:07.300974 Iniciando metodo de lectura de tablas DBF y conversion a DataFrame
+INFO:__main__:2021-02-18 14:15:02.683582 Iniciando proceso ETL
+INFO:__main__:2021-02-18 14:15:02.683582 Iniciando metodo para creacion de dataframe notven
+INFO:__main__:2021-02-18 14:15:02.683582 Iniciando metodo de lectura de tablas DBF y conversion a DataFrame
+INFO:__main__:2021-02-18 14:17:29.796035 Terminado metodo de lectura de tablas DBF y conversion a DataFrame
+INFO:__main__:2021-02-18 14:18:39.352983 Iniciando proceso ETL
+INFO:__main__:2021-02-18 14:18:39.352983 Iniciando metodo para creacion de dataframe notven
+INFO:__main__:2021-02-18 14:18:39.352983 Iniciando metodo de lectura de tablas DBF y conversion a DataFrame
+INFO:__main__:2021-02-18 14:20:42.411811 Terminado metodo de lectura de tablas DBF y conversion a DataFrame
+INFO:__main__:2021-02-18 14:20:42.418836 Iniciando metodo de selección de columnas dataframe creado
+INFO:__main__:2021-02-18 14:20:42.678808 Terminado metodo de selección de columnas dataframe creado
+INFO:__main__:2021-02-18 14:20:42.678808 Iniciando metodo de limpieza de columnas
+INFO:__main__:2021-02-18 14:20:42.678808 Iniciando metodo de limpieza de valores NAN
+INFO:__main__:2021-02-18 14:20:43.213536 Terminado metodo de limpieza de valores NAN
+INFO:__main__:2021-02-18 14:20:43.281543 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:20:43.661125 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:20:43.662126 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:20:44.962548 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:20:44.962548 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:20:44.963555 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:20:44.963555 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:20:44.963555 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:20:44.963555 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:20:44.963555 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:20:44.963555 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:20:44.963555 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:20:44.963555 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:20:45.265510 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:20:45.265510 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:20:47.232166 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:20:47.232166 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:20:47.671167 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:20:47.672166 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:20:51.135573 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:20:51.135626 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:20:51.696124 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:20:51.696124 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:20:55.471438 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:20:55.471438 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:20:56.012491 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:20:56.013490 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:20:58.749441 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:20:58.749441 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:20:59.265484 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:20:59.265484 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:21:02.276764 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:21:02.276764 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:21:02.277763 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:21:02.277763 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:21:02.277763 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:21:02.277763 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:21:02.960614 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:21:02.960614 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:21:06.919655 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:21:06.919655 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:21:06.919655 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:21:06.920655 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:21:06.920655 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:21:06.920655 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:21:06.920655 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:21:06.921656 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:21:06.921656 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:21:06.921656 Terminado metodo de limpieza de columnas
+INFO:__main__:2021-02-18 14:21:06.921656 Iniciando metodo para renombrar columnas a minusculas
+INFO:__main__:2021-02-18 14:21:06.922655 Terminado metodo para renombrar columnas a minusculas
+INFO:__main__:2021-02-18 14:21:07.019656 Iniciando metodo para quitar I.V.A. del precio de columna de precio
+INFO:__main__:2021-02-18 14:21:07.032605 Terminado metodo para quitar I.V.A. del precio de columna de precio
+INFO:__main__:2021-02-18 14:21:07.032605 Terminado metodo para creacion de dataframe notven
+INFO:__main__:2021-02-18 14:21:07.292532 Iniciando metodo para creacion de dataframe inventario
+INFO:__main__:2021-02-18 14:21:07.292532 Iniciando metodo de lectura de tablas DBF y conversion a DataFrame
+INFO:__main__:2021-02-18 14:21:14.676499 Terminado metodo de lectura de tablas DBF y conversion a DataFrame
+INFO:__main__:2021-02-18 14:21:14.727464 Iniciando metodo de selección de columnas dataframe creado
+INFO:__main__:2021-02-18 14:21:14.730503 Terminado metodo de selección de columnas dataframe creado
+INFO:__main__:2021-02-18 14:21:14.730503 Iniciando metodo de limpieza de columnas
+INFO:__main__:2021-02-18 14:21:14.730503 Iniciando metodo de limpieza de valores NAN
+INFO:__main__:2021-02-18 14:21:14.733606 Terminado metodo de limpieza de valores NAN
+INFO:__main__:2021-02-18 14:21:14.734514 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:21:14.739504 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:21:14.739504 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:21:14.767521 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:21:14.767521 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:21:14.773515 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:21:14.773515 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:21:14.801525 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:21:14.802525 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:21:14.802525 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:21:14.802525 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:21:14.802525 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:21:14.803524 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:21:14.807519 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:21:14.807519 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:21:14.835675 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:21:14.835675 Terminado metodo de limpieza de columnas
+INFO:__main__:2021-02-18 14:21:14.835675 Iniciando metodo para renombrar columnas a minusculas
+INFO:__main__:2021-02-18 14:21:14.836519 Terminado metodo para renombrar columnas a minusculas
+INFO:__main__:2021-02-18 14:21:14.836519 Terminado metodo para creacion de dataframe inventario
+INFO:__main__:2021-02-18 14:21:14.841520 Iniciando metodo para realizar merge de dataframes notven e inventario
+INFO:__main__:2021-02-18 14:21:21.345058 Terminado metodo para realizar merge de dataframes notven e inventario
+INFO:__main__:2021-02-18 14:21:21.345058 Iniciando metodo para abrir archivo Catalogo de Meseros.csv y creacion dataframe cat_meseros
+INFO:__main__:2021-02-18 14:21:21.349061 Terminado metodo para abrir archivo Catalogo de Meseros.csv y creacion dataframe cat_meseros
+INFO:__main__:2021-02-18 14:21:21.349061 Iniciando metodo para creacion de dataframe tabla_maesta
+INFO:__main__:2021-02-18 14:21:26.203427 Iniciando metodo de cambio de formato de columna hora
+INFO:__main__:2021-02-18 14:21:27.175270 Terminado metodo de cambio de formato de hora
+INFO:__main__:2021-02-18 14:21:27.435738 Terminado metodo para creacion de dataframe tabla_maesta
+INFO:__main__:2021-02-18 14:21:34.384232 Terminado proceso ETL
+INFO:__main__:2021-02-18 14:25:51.032758 Iniciando proceso ETL
+INFO:__main__:2021-02-18 14:25:51.032758 Iniciando metodo para creacion de dataframe notven
+INFO:__main__:2021-02-18 14:25:51.032758 Iniciando metodo de lectura de tablas DBF y conversion a DataFrame
+INFO:__main__:2021-02-18 14:28:52.499251 Terminado metodo de lectura de tablas DBF y conversion a DataFrame
+INFO:__main__:2021-02-18 14:28:52.509246 Iniciando metodo de selección de columnas dataframe creado
+INFO:__main__:2021-02-18 14:28:52.829702 Terminado metodo de selección de columnas dataframe creado
+INFO:__main__:2021-02-18 14:28:52.829702 Iniciando metodo de limpieza de columnas
+INFO:__main__:2021-02-18 14:28:52.829702 Iniciando metodo de limpieza de valores NAN
+INFO:__main__:2021-02-18 14:28:53.529692 Terminado metodo de limpieza de valores NAN
+INFO:__main__:2021-02-18 14:28:53.608637 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:28:54.124309 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:28:54.124309 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:28:56.818618 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:28:56.818618 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:28:56.819618 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:28:56.819618 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:28:56.820619 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:28:56.820619 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:28:56.820619 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:28:56.820619 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:28:56.821620 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:28:56.821620 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:28:57.217202 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:28:57.218468 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:28:59.770433 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:28:59.771434 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:29:00.298436 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:29:00.298436 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:29:04.524681 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:29:04.524681 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:29:05.042064 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:29:05.042064 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:29:09.171297 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:29:09.171297 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:29:09.673253 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:29:09.673253 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:29:12.088217 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:29:12.089216 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:29:12.627388 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:29:12.627388 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:29:15.799494 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:29:15.799494 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:29:15.799494 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:29:15.799494 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:29:15.800489 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:29:15.800489 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:29:16.329233 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:29:16.329233 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:29:20.546786 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:29:20.547785 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:29:20.548781 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:29:20.548781 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:29:20.549791 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:29:20.549791 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:29:20.550781 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:29:20.550781 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:29:20.551787 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:29:20.551787 Terminado metodo de limpieza de columnas
+INFO:__main__:2021-02-18 14:29:20.552780 Iniciando metodo para renombrar columnas a minusculas
+INFO:__main__:2021-02-18 14:29:20.553778 Terminado metodo para renombrar columnas a minusculas
+INFO:__main__:2021-02-18 14:29:20.675893 Iniciando metodo para quitar I.V.A. del precio de columna de precio
+INFO:__main__:2021-02-18 14:29:20.691837 Terminado metodo para quitar I.V.A. del precio de columna de precio
+INFO:__main__:2021-02-18 14:29:20.691837 Terminado metodo para creacion de dataframe notven
+INFO:__main__:2021-02-18 14:29:20.958127 Iniciando metodo para creacion de dataframe inventario
+INFO:__main__:2021-02-18 14:29:20.959127 Iniciando metodo de lectura de tablas DBF y conversion a DataFrame
+INFO:__main__:2021-02-18 14:29:27.970112 Terminado metodo de lectura de tablas DBF y conversion a DataFrame
+INFO:__main__:2021-02-18 14:29:28.019066 Iniciando metodo de selección de columnas dataframe creado
+INFO:__main__:2021-02-18 14:29:28.023067 Terminado metodo de selección de columnas dataframe creado
+INFO:__main__:2021-02-18 14:29:28.023067 Iniciando metodo de limpieza de columnas
+INFO:__main__:2021-02-18 14:29:28.023067 Iniciando metodo de limpieza de valores NAN
+INFO:__main__:2021-02-18 14:29:28.029506 Terminado metodo de limpieza de valores NAN
+INFO:__main__:2021-02-18 14:29:28.029506 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:29:28.037142 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:29:28.038142 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:29:28.071895 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:29:28.071895 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:29:28.074863 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:29:28.074863 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:29:28.102490 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:29:28.102490 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:29:28.102490 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:29:28.102490 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:29:28.103503 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:29:28.103503 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:29:28.107530 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:29:28.107530 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:29:28.132479 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:29:28.132479 Terminado metodo de limpieza de columnas
+INFO:__main__:2021-02-18 14:29:28.132479 Iniciando metodo para renombrar columnas a minusculas
+INFO:__main__:2021-02-18 14:29:28.133391 Terminado metodo para renombrar columnas a minusculas
+INFO:__main__:2021-02-18 14:29:28.133391 Terminado metodo para creacion de dataframe inventario
+INFO:__main__:2021-02-18 14:29:28.138404 Iniciando metodo para realizar merge de dataframes notven e inventario
+INFO:__main__:2021-02-18 14:29:34.476473 Terminado metodo para realizar merge de dataframes notven e inventario
+INFO:__main__:2021-02-18 14:29:34.476473 Iniciando metodo para abrir archivo Catalogo de Meseros.csv y creacion dataframe cat_meseros
+INFO:__main__:2021-02-18 14:29:34.480477 Terminado metodo para abrir archivo Catalogo de Meseros.csv y creacion dataframe cat_meseros
+INFO:__main__:2021-02-18 14:29:34.480477 Iniciando metodo para creacion de dataframe tabla_maesta
+INFO:__main__:2021-02-18 14:29:39.097065 Iniciando metodo de cambio de formato de columna hora
+INFO:__main__:2021-02-18 14:29:40.023094 Terminado metodo de cambio de formato de hora
+INFO:__main__:2021-02-18 14:29:40.268159 Terminado metodo para creacion de dataframe tabla_maesta
+INFO:__main__:2021-02-18 14:29:40.328439 Terminado proceso ETL
+INFO:__main__:2021-02-18 14:33:10.103695 Iniciando proceso ETL
+INFO:__main__:2021-02-18 14:33:10.104697 Iniciando metodo para creacion de dataframe notven
+INFO:__main__:2021-02-18 14:33:10.104697 Iniciando metodo de lectura de tablas DBF y conversion a DataFrame
+INFO:__main__:2021-02-18 14:35:59.594513 Terminado metodo de lectura de tablas DBF y conversion a DataFrame
+INFO:__main__:2021-02-18 14:35:59.603599 Iniciando metodo de selección de columnas dataframe creado
+INFO:__main__:2021-02-18 14:35:59.899537 Terminado metodo de selección de columnas dataframe creado
+INFO:__main__:2021-02-18 14:35:59.900537 Iniciando metodo de limpieza de columnas
+INFO:__main__:2021-02-18 14:35:59.900537 Iniciando metodo de limpieza de valores NAN
+INFO:__main__:2021-02-18 14:36:00.520584 Terminado metodo de limpieza de valores NAN
+INFO:__main__:2021-02-18 14:36:00.589477 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:36:01.044072 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:36:01.044072 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:36:03.104680 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:36:03.104680 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:36:03.104680 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:36:03.105681 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:36:03.105892 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:36:03.106682 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:36:03.106682 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:36:03.106682 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:36:03.107682 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:36:03.107682 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:36:03.459562 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:36:03.460560 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:36:05.519533 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:36:05.520484 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:36:05.914037 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:36:05.914843 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:36:08.385751 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:36:08.385751 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:36:08.694909 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:36:08.694909 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:36:11.207943 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:36:11.207943 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:36:11.527841 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:36:11.527841 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:36:12.697753 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:36:12.697753 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:36:13.022635 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:36:13.022635 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:36:14.463999 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:36:14.463999 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:36:14.463999 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:36:14.463999 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:36:14.465000 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:36:14.465000 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:36:14.808790 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:36:14.808790 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:36:17.339296 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:36:17.340307 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:36:17.340439 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:36:17.340439 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:36:17.340439 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:36:17.340439 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:36:17.341306 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:36:17.341306 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:36:17.341306 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:36:17.341306 Terminado metodo de limpieza de columnas
+INFO:__main__:2021-02-18 14:36:17.341306 Iniciando metodo para renombrar columnas a minusculas
+INFO:__main__:2021-02-18 14:36:17.341306 Terminado metodo para renombrar columnas a minusculas
+INFO:__main__:2021-02-18 14:36:17.427549 Iniciando metodo para quitar I.V.A. del precio de columna de precio
+INFO:__main__:2021-02-18 14:36:17.437592 Terminado metodo para quitar I.V.A. del precio de columna de precio
+INFO:__main__:2021-02-18 14:36:17.437592 Terminado metodo para creacion de dataframe notven
+INFO:__main__:2021-02-18 14:36:17.653406 Iniciando metodo para creacion de dataframe inventario
+INFO:__main__:2021-02-18 14:36:17.653979 Iniciando metodo de lectura de tablas DBF y conversion a DataFrame
+INFO:__main__:2021-02-18 14:36:20.415145 Terminado metodo de lectura de tablas DBF y conversion a DataFrame
+INFO:__main__:2021-02-18 14:36:20.435148 Iniciando metodo de selección de columnas dataframe creado
+INFO:__main__:2021-02-18 14:36:20.436150 Terminado metodo de selección de columnas dataframe creado
+INFO:__main__:2021-02-18 14:36:20.437145 Iniciando metodo de limpieza de columnas
+INFO:__main__:2021-02-18 14:36:20.437145 Iniciando metodo de limpieza de valores NAN
+INFO:__main__:2021-02-18 14:36:20.439149 Terminado metodo de limpieza de valores NAN
+INFO:__main__:2021-02-18 14:36:20.439149 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:36:20.440808 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:36:20.440808 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:36:20.453804 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:36:20.453804 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:36:20.454807 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:36:20.455804 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:36:20.470770 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:36:20.470770 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:36:20.470770 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:36:20.470770 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:36:20.470770 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:36:20.470770 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:36:20.473777 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-02-18 14:36:20.473777 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:36:20.488887 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-02-18 14:36:20.488887 Terminado metodo de limpieza de columnas
+INFO:__main__:2021-02-18 14:36:20.488887 Iniciando metodo para renombrar columnas a minusculas
+INFO:__main__:2021-02-18 14:36:20.488887 Terminado metodo para renombrar columnas a minusculas
+INFO:__main__:2021-02-18 14:36:20.488887 Terminado metodo para creacion de dataframe inventario
+INFO:__main__:2021-02-18 14:36:20.491962 Iniciando metodo para realizar merge de dataframes notven e inventario
+INFO:__main__:2021-02-18 14:36:25.258599 Terminado metodo para realizar merge de dataframes notven e inventario
+INFO:__main__:2021-02-18 14:36:25.258599 Iniciando metodo para abrir archivo Catalogo de Meseros.csv y creacion dataframe cat_meseros
+INFO:__main__:2021-02-18 14:36:25.260557 Terminado metodo para abrir archivo Catalogo de Meseros.csv y creacion dataframe cat_meseros
+INFO:__main__:2021-02-18 14:36:25.260557 Iniciando metodo para creacion de dataframe tabla_maesta
+INFO:__main__:2021-02-18 14:36:28.513406 Iniciando metodo de cambio de formato de columna hora
+INFO:__main__:2021-02-18 14:36:29.091590 Terminado metodo de cambio de formato de hora
+INFO:__main__:2021-02-18 14:36:29.287327 Terminado metodo para creacion de dataframe tabla_maesta
+INFO:__main__:2021-02-18 14:36:37.426702 Terminado proceso ETL
+INFO:__main__:2021-03-02 18:27:01.048494 Iniciando proceso ETL
+INFO:__main__:2021-03-02 18:27:01.048494 Iniciando metodo para creacion de dataframe notven
+INFO:__main__:2021-03-02 18:27:01.048494 Iniciando metodo de lectura de tablas DBF y conversion a DataFrame
+INFO:__main__:2021-03-02 18:28:27.947077 Terminado metodo de lectura de tablas DBF y conversion a DataFrame
+INFO:__main__:2021-03-02 18:28:27.952075 Iniciando metodo de selección de columnas dataframe creado
+INFO:__main__:2021-03-02 18:28:28.183044 Terminado metodo de selección de columnas dataframe creado
+INFO:__main__:2021-03-02 18:28:28.183044 Iniciando metodo de limpieza de columnas
+INFO:__main__:2021-03-02 18:28:28.183044 Iniciando metodo de limpieza de valores NAN
+INFO:__main__:2021-03-02 18:28:28.597626 Terminado metodo de limpieza de valores NAN
+INFO:__main__:2021-03-02 18:28:28.658630 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 18:28:28.923584 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 18:28:28.924635 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 18:28:29.847622 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 18:28:29.848625 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 18:28:29.848625 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 18:28:29.848625 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 18:28:29.848625 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 18:28:29.848625 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 18:28:29.848625 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 18:28:29.848625 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 18:28:29.848625 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 18:28:29.848625 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 18:28:30.074591 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 18:28:30.074591 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 18:28:31.706144 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 18:28:31.706144 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 18:28:31.975181 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 18:28:31.975181 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 18:28:33.942044 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 18:28:33.943046 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 18:28:34.215010 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 18:28:34.215010 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 18:28:36.179434 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 18:28:36.179434 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 18:28:36.422470 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 18:28:36.422470 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 18:28:37.451667 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 18:28:37.451667 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 18:28:37.717631 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 18:28:37.717631 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 18:28:38.967422 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 18:28:38.967422 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 18:28:38.967422 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 18:28:38.967422 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 18:28:38.968422 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 18:28:38.968422 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 18:28:39.244436 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 18:28:39.244436 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 18:28:41.480211 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 18:28:41.480211 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 18:28:41.481211 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 18:28:41.481211 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 18:28:41.481211 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 18:28:41.481211 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 18:28:41.481211 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 18:28:41.481211 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 18:28:41.481211 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 18:28:41.482211 Terminado metodo de limpieza de columnas
+INFO:__main__:2021-03-02 18:28:41.482211 Iniciando metodo para renombrar columnas a minusculas
+INFO:__main__:2021-03-02 18:28:41.482211 Terminado metodo para renombrar columnas a minusculas
+INFO:__main__:2021-03-02 18:28:41.552211 Iniciando metodo para quitar I.V.A. del precio de columna de precio
+INFO:__main__:2021-03-02 18:28:41.570261 Terminado metodo para quitar I.V.A. del precio de columna de precio
+INFO:__main__:2021-03-02 18:28:41.570261 Terminado metodo para creacion de dataframe notven
+INFO:__main__:2021-03-02 18:28:41.758303 Iniciando metodo para creacion de dataframe inventario
+INFO:__main__:2021-03-02 18:28:41.758303 Iniciando metodo de lectura de tablas DBF y conversion a DataFrame
+INFO:__main__:2021-03-02 18:28:44.724668 Terminado metodo de lectura de tablas DBF y conversion a DataFrame
+INFO:__main__:2021-03-02 18:28:44.749667 Iniciando metodo de selección de columnas dataframe creado
+INFO:__main__:2021-03-02 18:28:44.751668 Terminado metodo de selección de columnas dataframe creado
+INFO:__main__:2021-03-02 18:28:44.751668 Iniciando metodo de limpieza de columnas
+INFO:__main__:2021-03-02 18:28:44.751668 Iniciando metodo de limpieza de valores NAN
+INFO:__main__:2021-03-02 18:28:44.753669 Terminado metodo de limpieza de valores NAN
+INFO:__main__:2021-03-02 18:28:44.753669 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 18:28:44.755704 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 18:28:44.755704 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 18:28:44.770672 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 18:28:44.770672 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 18:28:44.773668 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 18:28:44.773668 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 18:28:44.789666 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 18:28:44.789666 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 18:28:44.789666 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 18:28:44.789666 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 18:28:44.790674 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 18:28:44.790674 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 18:28:44.792671 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 18:28:44.792671 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 18:28:44.808686 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 18:28:44.808686 Terminado metodo de limpieza de columnas
+INFO:__main__:2021-03-02 18:28:44.808686 Iniciando metodo para renombrar columnas a minusculas
+INFO:__main__:2021-03-02 18:28:44.808686 Terminado metodo para renombrar columnas a minusculas
+INFO:__main__:2021-03-02 18:28:44.808686 Terminado metodo para creacion de dataframe inventario
+INFO:__main__:2021-03-02 18:28:44.811671 Iniciando metodo para realizar merge de dataframes notven e inventario
+INFO:__main__:2021-03-02 18:28:48.530752 Terminado metodo para realizar merge de dataframes notven e inventario
+INFO:__main__:2021-03-02 18:28:48.530752 Iniciando metodo para abrir archivo Catalogo de Meseros.csv y creacion dataframe cat_meseros
+INFO:__main__:2021-03-02 18:28:48.546871 Terminado metodo para abrir archivo Catalogo de Meseros.csv y creacion dataframe cat_meseros
+INFO:__main__:2021-03-02 20:03:19.271129 Iniciando proceso ETL
+INFO:__main__:2021-03-02 20:03:19.271129 Iniciando metodo para creacion de dataframe notven
+INFO:__main__:2021-03-02 20:03:19.271129 Iniciando metodo de lectura de tablas DBF y conversion a DataFrame
+INFO:__main__:2021-03-02 20:05:54.052556 Terminado metodo de lectura de tablas DBF y conversion a DataFrame
+INFO:__main__:2021-03-02 20:05:54.061348 Iniciando metodo de selección de columnas dataframe creado
+INFO:__main__:2021-03-02 20:05:54.374376 Terminado metodo de selección de columnas dataframe creado
+INFO:__main__:2021-03-02 20:05:54.374376 Iniciando metodo de limpieza de columnas
+INFO:__main__:2021-03-02 20:05:54.375377 Iniciando metodo de limpieza de valores NAN
+INFO:__main__:2021-03-02 20:05:55.135141 Terminado metodo de limpieza de valores NAN
+INFO:__main__:2021-03-02 20:05:55.213537 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:05:55.664785 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:05:55.664785 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:05:58.244789 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:05:58.244789 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:05:58.245787 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:05:58.245787 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:05:58.245787 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:05:58.245787 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:05:58.246787 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:05:58.246787 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:05:58.246787 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:05:58.246787 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:05:58.590167 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:05:58.590167 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:06:00.861576 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:06:00.861576 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:06:01.295826 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:06:01.295826 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:06:04.766306 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:06:04.766306 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:06:05.239291 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:06:05.239291 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:06:09.200326 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:06:09.200710 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:06:09.674057 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:06:09.675055 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:06:12.182569 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:06:12.183167 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:06:12.694114 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:06:12.695109 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:06:15.453193 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:06:15.454193 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:06:15.454193 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:06:15.454193 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:06:15.455208 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:06:15.455208 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:06:15.945205 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:06:15.945205 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:06:19.205137 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:06:19.205137 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:06:19.206138 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:06:19.206138 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:06:19.206541 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:06:19.206541 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:06:19.207137 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:06:19.207137 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:06:19.207137 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:06:19.207137 Terminado metodo de limpieza de columnas
+INFO:__main__:2021-03-02 20:06:19.207137 Iniciando metodo para renombrar columnas a minusculas
+INFO:__main__:2021-03-02 20:06:19.208137 Terminado metodo para renombrar columnas a minusculas
+INFO:__main__:2021-03-02 20:06:19.292534 Iniciando metodo para quitar I.V.A. del precio de columna de precio
+INFO:__main__:2021-03-02 20:06:19.303662 Terminado metodo para quitar I.V.A. del precio de columna de precio
+INFO:__main__:2021-03-02 20:06:19.304215 Terminado metodo para creacion de dataframe notven
+INFO:__main__:2021-03-02 20:06:19.553006 Iniciando metodo para creacion de dataframe inventario
+INFO:__main__:2021-03-02 20:06:19.553006 Iniciando metodo de lectura de tablas DBF y conversion a DataFrame
+INFO:__main__:2021-03-02 20:06:26.275712 Terminado metodo de lectura de tablas DBF y conversion a DataFrame
+INFO:__main__:2021-03-02 20:06:26.318050 Iniciando metodo de selección de columnas dataframe creado
+INFO:__main__:2021-03-02 20:06:26.321116 Terminado metodo de selección de columnas dataframe creado
+INFO:__main__:2021-03-02 20:06:26.321116 Iniciando metodo de limpieza de columnas
+INFO:__main__:2021-03-02 20:06:26.321116 Iniciando metodo de limpieza de valores NAN
+INFO:__main__:2021-03-02 20:06:26.324100 Terminado metodo de limpieza de valores NAN
+INFO:__main__:2021-03-02 20:06:26.324100 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:06:26.328099 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:06:26.329102 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:06:26.358054 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:06:26.358054 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:06:26.362052 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:06:26.362052 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:06:26.393028 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:06:26.393028 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:06:26.394029 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:06:26.394029 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:06:26.394029 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:06:26.394029 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:06:26.398016 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:06:26.399150 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:06:26.427367 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:06:26.427367 Terminado metodo de limpieza de columnas
+INFO:__main__:2021-03-02 20:06:26.427367 Iniciando metodo para renombrar columnas a minusculas
+INFO:__main__:2021-03-02 20:06:26.427367 Terminado metodo para renombrar columnas a minusculas
+INFO:__main__:2021-03-02 20:06:26.428224 Terminado metodo para creacion de dataframe inventario
+INFO:__main__:2021-03-02 20:06:26.433328 Iniciando metodo para realizar merge de dataframes notven e inventario
+INFO:__main__:2021-03-02 20:06:32.454993 Terminado metodo para realizar merge de dataframes notven e inventario
+INFO:__main__:2021-03-02 20:06:32.454993 Iniciando metodo para abrir archivo Catalogo de Meseros.csv y creacion dataframe cat_meseros
+INFO:__main__:2021-03-02 20:06:32.456383 Terminado metodo para abrir archivo Catalogo de Meseros.csv y creacion dataframe cat_meseros
+INFO:__main__:2021-03-02 20:24:10.464812 Iniciando proceso ETL
+INFO:__main__:2021-03-02 20:24:10.464812 Iniciando metodo para creacion de dataframe notven
+INFO:__main__:2021-03-02 20:24:10.464812 Iniciando metodo de lectura de tablas DBF y conversion a DataFrame
+INFO:__main__:2021-03-02 20:25:32.243986 Terminado metodo de lectura de tablas DBF y conversion a DataFrame
+INFO:__main__:2021-03-02 20:25:32.250962 Iniciando metodo de selección de columnas dataframe creado
+INFO:__main__:2021-03-02 20:25:32.502971 Terminado metodo de selección de columnas dataframe creado
+INFO:__main__:2021-03-02 20:25:32.502971 Iniciando metodo de limpieza de columnas
+INFO:__main__:2021-03-02 20:25:32.503974 Iniciando metodo de limpieza de valores NAN
+INFO:__main__:2021-03-02 20:25:32.995960 Terminado metodo de limpieza de valores NAN
+INFO:__main__:2021-03-02 20:25:33.064927 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:25:33.390966 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:25:33.390966 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:25:34.375600 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:25:34.375600 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:25:34.375600 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:25:34.375600 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:25:34.376597 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:25:34.376597 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:25:34.376597 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:25:34.376597 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:25:34.376597 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:25:34.376597 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:25:34.651605 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:25:34.651605 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:25:36.578197 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:25:36.578197 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:25:36.911214 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:25:36.912198 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:25:39.336393 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:25:39.337390 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:25:39.660521 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:25:39.660521 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:25:42.037815 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:25:42.037815 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:25:42.361765 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:25:42.361765 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:25:43.436116 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:25:43.436116 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:25:43.748797 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:25:43.749795 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:25:45.078761 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:25:45.078761 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:25:45.078761 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:25:45.079761 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:25:45.079761 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:25:45.079761 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:25:45.415813 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:25:45.415813 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:25:47.882776 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:25:47.883772 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:25:47.883772 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:25:47.883772 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:25:47.883772 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:25:47.884773 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:25:47.884773 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:25:47.884773 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:25:47.884773 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:25:47.884773 Terminado metodo de limpieza de columnas
+INFO:__main__:2021-03-02 20:25:47.884773 Iniciando metodo para renombrar columnas a minusculas
+INFO:__main__:2021-03-02 20:25:47.885772 Terminado metodo para renombrar columnas a minusculas
+INFO:__main__:2021-03-02 20:25:47.961721 Iniciando metodo para quitar I.V.A. del precio de columna de precio
+INFO:__main__:2021-03-02 20:25:47.973717 Terminado metodo para quitar I.V.A. del precio de columna de precio
+INFO:__main__:2021-03-02 20:25:47.973717 Terminado metodo para creacion de dataframe notven
+INFO:__main__:2021-03-02 20:25:48.196393 Iniciando metodo para creacion de dataframe inventario
+INFO:__main__:2021-03-02 20:25:48.196393 Iniciando metodo de lectura de tablas DBF y conversion a DataFrame
+INFO:__main__:2021-03-02 20:25:50.563764 Terminado metodo de lectura de tablas DBF y conversion a DataFrame
+INFO:__main__:2021-03-02 20:25:50.580766 Iniciando metodo de selección de columnas dataframe creado
+INFO:__main__:2021-03-02 20:25:50.581732 Terminado metodo de selección de columnas dataframe creado
+INFO:__main__:2021-03-02 20:25:50.581732 Iniciando metodo de limpieza de columnas
+INFO:__main__:2021-03-02 20:25:50.581732 Iniciando metodo de limpieza de valores NAN
+INFO:__main__:2021-03-02 20:25:50.582821 Terminado metodo de limpieza de valores NAN
+INFO:__main__:2021-03-02 20:25:50.582821 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:25:50.584770 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:25:50.584770 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:25:50.595763 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:25:50.595763 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:25:50.597730 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:25:50.597730 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:25:50.610731 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:25:50.610731 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:25:50.610731 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:25:50.610731 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:25:50.611732 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:25:50.611732 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:25:50.613896 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-02 20:25:50.613896 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:25:50.626731 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-02 20:25:50.626731 Terminado metodo de limpieza de columnas
+INFO:__main__:2021-03-02 20:25:50.626731 Iniciando metodo para renombrar columnas a minusculas
+INFO:__main__:2021-03-02 20:25:50.626731 Terminado metodo para renombrar columnas a minusculas
+INFO:__main__:2021-03-02 20:25:50.626731 Terminado metodo para creacion de dataframe inventario
+INFO:__main__:2021-03-02 20:25:50.629727 Iniciando metodo para realizar merge de dataframes notven e inventario
+INFO:__main__:2021-03-02 20:25:55.146704 Terminado metodo para realizar merge de dataframes notven e inventario
+INFO:__main__:2021-03-02 20:25:55.146704 Iniciando metodo para abrir archivo Catalogo de Meseros.csv y creacion dataframe cat_meseros
+INFO:__main__:2021-03-02 20:25:55.147706 Terminado metodo para abrir archivo Catalogo de Meseros.csv y creacion dataframe cat_meseros
+INFO:__main__:2021-03-02 20:25:55.147706 Iniciando metodo para creacion de dataframe tabla_maesta
+INFO:__main__:2021-03-02 20:25:58.299723 Iniciando metodo de cambio de formato de columna hora
+INFO:__main__:2021-03-02 20:25:58.891090 Terminado metodo de cambio de formato de hora
+INFO:__main__:2021-03-02 20:25:59.079113 Terminado metodo para creacion de dataframe tabla_maesta
+INFO:__main__:2021-03-02 20:26:05.583562 Terminado proceso ETL
+INFO:__main__:2021-03-03 20:23:50.950976 Iniciando proceso ETL
+INFO:__main__:2021-03-03 20:23:50.950976 Iniciando metodo para creacion de dataframe notven
+INFO:__main__:2021-03-03 20:23:50.950976 Iniciando metodo de lectura de tablas DBF y conversion a DataFrame
+INFO:__main__:2021-03-03 20:23:54.251779 Terminado metodo de lectura de tablas DBF y conversion a DataFrame
+INFO:__main__:2021-03-03 20:23:54.252781 Iniciando metodo de selección de columnas dataframe creado
+INFO:__main__:2021-03-03 20:23:54.265807 Terminado metodo de selección de columnas dataframe creado
+INFO:__main__:2021-03-03 20:23:54.266780 Iniciando metodo de limpieza de columnas
+INFO:__main__:2021-03-03 20:23:54.266780 Iniciando metodo de limpieza de valores NAN
+INFO:__main__:2021-03-03 20:23:54.285818 Terminado metodo de limpieza de valores NAN
+INFO:__main__:2021-03-03 20:23:54.287819 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:23:54.297817 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:23:54.297817 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:23:54.337778 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:23:54.337778 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:23:54.337778 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:23:54.337778 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:23:54.337778 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:23:54.337778 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:23:54.338779 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:23:54.338779 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:23:54.338779 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:23:54.338779 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:23:54.344780 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:23:54.344780 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:23:54.367812 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:23:54.367812 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:23:54.374812 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:23:54.374812 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:23:54.420811 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:23:54.420811 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:23:54.427810 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:23:54.427810 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:23:54.473389 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:23:54.473389 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:23:54.481389 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:23:54.482391 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:23:54.523403 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:23:54.523403 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:23:54.531400 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:23:54.531400 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:23:54.576394 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:23:54.576394 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:23:54.576394 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:23:54.576394 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:23:54.577396 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:23:54.577396 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:23:54.584393 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:23:54.584393 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:23:54.630393 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:23:54.630393 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:23:54.630393 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:23:54.630393 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:23:54.630393 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:23:54.630393 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:23:54.630393 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:23:54.630393 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:23:54.631400 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:23:54.631400 Terminado metodo de limpieza de columnas
+INFO:__main__:2021-03-03 20:23:54.631400 Iniciando metodo para renombrar columnas a minusculas
+INFO:__main__:2021-03-03 20:23:54.631400 Terminado metodo para renombrar columnas a minusculas
+INFO:__main__:2021-03-03 20:23:54.633393 Iniciando metodo para quitar I.V.A. del precio de columna de precio
+INFO:__main__:2021-03-03 20:23:54.644403 Terminado metodo para quitar I.V.A. del precio de columna de precio
+INFO:__main__:2021-03-03 20:23:54.644403 Terminado metodo para creacion de dataframe notven
+INFO:__main__:2021-03-03 20:23:54.650406 Iniciando metodo para creacion de dataframe inventario
+INFO:__main__:2021-03-03 20:23:54.650406 Iniciando metodo de lectura de tablas DBF y conversion a DataFrame
+INFO:__main__:2021-03-03 20:23:55.838266 Terminado metodo de lectura de tablas DBF y conversion a DataFrame
+INFO:__main__:2021-03-03 20:23:55.839258 Iniciando metodo de selección de columnas dataframe creado
+INFO:__main__:2021-03-03 20:23:55.839258 Terminado metodo de selección de columnas dataframe creado
+INFO:__main__:2021-03-03 20:23:55.839258 Iniciando metodo de limpieza de columnas
+INFO:__main__:2021-03-03 20:23:55.840258 Iniciando metodo de limpieza de valores NAN
+INFO:__main__:2021-03-03 20:23:55.840258 Terminado metodo de limpieza de valores NAN
+INFO:__main__:2021-03-03 20:23:55.840258 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:23:55.841261 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:23:55.841261 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:23:55.847259 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:23:55.847259 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:23:55.848257 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:23:55.848257 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:23:55.854265 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:23:55.854265 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:23:55.854265 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:23:55.854265 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:23:55.855263 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:23:55.855263 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:23:55.855263 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:23:55.855263 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:23:55.861262 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:23:55.861262 Terminado metodo de limpieza de columnas
+INFO:__main__:2021-03-03 20:23:55.861262 Iniciando metodo para renombrar columnas a minusculas
+INFO:__main__:2021-03-03 20:23:55.862262 Terminado metodo para renombrar columnas a minusculas
+INFO:__main__:2021-03-03 20:23:55.862262 Terminado metodo para creacion de dataframe inventario
+INFO:__main__:2021-03-03 20:23:55.862262 Iniciando metodo para realizar merge de dataframes notven e inventario
+INFO:__main__:2021-03-03 20:23:55.978262 Terminado metodo para realizar merge de dataframes notven e inventario
+INFO:__main__:2021-03-03 20:23:55.978262 Iniciando metodo para abrir archivo Catalogo de Meseros.csv y creacion dataframe cat_meseros
+INFO:__main__:2021-03-03 20:23:55.980259 Terminado metodo para abrir archivo Catalogo de Meseros.csv y creacion dataframe cat_meseros
+INFO:__main__:2021-03-03 20:23:55.980259 Iniciando metodo para creacion de dataframe tabla_maesta
+INFO:__main__:2021-03-03 20:23:56.068261 Iniciando metodo de cambio de formato de columna hora
+INFO:__main__:2021-03-03 20:23:56.090261 Terminado metodo de cambio de formato de hora
+INFO:__main__:2021-03-03 20:23:56.095225 Terminado metodo para creacion de dataframe tabla_maesta
+INFO:__main__:2021-03-03 20:23:56.414929 Terminado proceso ETL
+INFO:__main__:2021-03-03 20:39:10.558959 Iniciando proceso ETL
+INFO:__main__:2021-03-03 20:39:10.558959 Iniciando metodo para creacion de dataframe notven
+INFO:__main__:2021-03-03 20:39:10.558959 Iniciando metodo de lectura de tablas DBF y conversion a DataFrame
+INFO:__main__:2021-03-03 20:40:55.742758 Terminado metodo de lectura de tablas DBF y conversion a DataFrame
+INFO:__main__:2021-03-03 20:40:55.750129 Iniciando metodo de selección de columnas dataframe creado
+INFO:__main__:2021-03-03 20:40:56.007310 Terminado metodo de selección de columnas dataframe creado
+INFO:__main__:2021-03-03 20:40:56.007310 Iniciando metodo de limpieza de columnas
+INFO:__main__:2021-03-03 20:40:56.007310 Iniciando metodo de limpieza de valores NAN
+INFO:__main__:2021-03-03 20:40:56.512054 Terminado metodo de limpieza de valores NAN
+INFO:__main__:2021-03-03 20:40:56.585499 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:40:56.907702 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:40:56.907702 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:40:57.999694 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:40:57.999694 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:40:57.999694 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:40:57.999694 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:40:57.999694 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:40:57.999694 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:40:58.000650 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:40:58.000650 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:40:58.000650 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:40:58.000650 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:40:58.267170 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:40:58.267922 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:41:00.213565 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:41:00.214566 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:41:00.551987 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:41:00.552977 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:41:02.973089 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:41:02.973332 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:41:03.306166 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:41:03.306166 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:41:05.765845 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:41:05.765845 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:41:06.081613 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:41:06.081613 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:41:07.218020 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:41:07.219021 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:41:07.539978 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:41:07.540975 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:41:08.945111 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:41:08.945111 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:41:08.946312 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:41:08.946312 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:41:08.946312 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:41:08.947055 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:41:09.261383 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:41:09.261585 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:41:11.774900 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:41:11.774900 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:41:11.774900 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:41:11.775901 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:41:11.775901 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:41:11.775901 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:41:11.775901 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:41:11.775901 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:41:11.776900 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:41:11.776900 Terminado metodo de limpieza de columnas
+INFO:__main__:2021-03-03 20:41:11.776900 Iniciando metodo para renombrar columnas a minusculas
+INFO:__main__:2021-03-03 20:41:11.776900 Terminado metodo para renombrar columnas a minusculas
+INFO:__main__:2021-03-03 20:41:11.858379 Iniciando metodo para quitar I.V.A. del precio de columna de precio
+INFO:__main__:2021-03-03 20:41:11.867765 Terminado metodo para quitar I.V.A. del precio de columna de precio
+INFO:__main__:2021-03-03 20:41:11.867765 Terminado metodo para creacion de dataframe notven
+INFO:__main__:2021-03-03 20:41:12.069905 Iniciando metodo para creacion de dataframe inventario
+INFO:__main__:2021-03-03 20:41:12.070937 Iniciando metodo de lectura de tablas DBF y conversion a DataFrame
+INFO:__main__:2021-03-03 20:41:14.906795 Terminado metodo de lectura de tablas DBF y conversion a DataFrame
+INFO:__main__:2021-03-03 20:41:14.928685 Iniciando metodo de selección de columnas dataframe creado
+INFO:__main__:2021-03-03 20:41:14.929882 Terminado metodo de selección de columnas dataframe creado
+INFO:__main__:2021-03-03 20:41:14.929882 Iniciando metodo de limpieza de columnas
+INFO:__main__:2021-03-03 20:41:14.930626 Iniciando metodo de limpieza de valores NAN
+INFO:__main__:2021-03-03 20:41:14.931626 Terminado metodo de limpieza de valores NAN
+INFO:__main__:2021-03-03 20:41:14.931626 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:41:14.933713 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:41:14.933713 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:41:14.947625 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:41:14.947625 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:41:14.948814 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:41:14.948814 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:41:14.963842 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:41:14.963842 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:41:14.963842 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:41:14.963842 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:41:14.963842 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:41:14.964843 Iniciando metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:41:14.966843 Terminado metodo de limpieza de escpacios
+INFO:__main__:2021-03-03 20:41:14.966843 Iniciando metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:41:14.983456 Terminado metodo de limpieza de caracteres especiales en columnas
+INFO:__main__:2021-03-03 20:41:14.983456 Terminado metodo de limpieza de columnas
+INFO:__main__:2021-03-03 20:41:14.983456 Iniciando metodo para renombrar columnas a minusculas
+INFO:__main__:2021-03-03 20:41:14.983456 Terminado metodo para renombrar columnas a minusculas
+INFO:__main__:2021-03-03 20:41:14.983456 Terminado metodo para creacion de dataframe inventario
+INFO:__main__:2021-03-03 20:41:14.986542 Iniciando metodo para realizar merge de dataframes notven e inventario
+INFO:__main__:2021-03-03 20:41:19.822498 Terminado metodo para realizar merge de dataframes notven e inventario
+INFO:__main__:2021-03-03 20:41:19.822498 Iniciando metodo para abrir archivo Catalogo de Meseros.csv y creacion dataframe cat_meseros
+INFO:__main__:2021-03-03 20:41:19.824449 Terminado metodo para abrir archivo Catalogo de Meseros.csv y creacion dataframe cat_meseros
+INFO:__main__:2021-03-03 20:41:19.824449 Iniciando metodo para creacion de dataframe tabla_maesta
+INFO:__main__:2021-03-03 20:41:23.138920 Iniciando metodo de cambio de formato de columna hora
+INFO:__main__:2021-03-03 20:41:23.710582 Terminado metodo de cambio de formato de hora
+INFO:__main__:2021-03-03 20:41:23.905943 Terminado metodo para creacion de dataframe tabla_maesta
+INFO:__main__:2021-03-03 20:41:32.080289 Terminado proceso ETL

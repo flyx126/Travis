@@ -1,0 +1,205 @@
+db: 
+  user: 'postgres'
+  password: '12345'
+  port: 5432
+  database: 'Dashboard-Toscalia'
+
+generales: 
+  ruta_notven:  '/Users/armandovera/Desktop/Tablas DBF/NOTVNDAShistorico.DBF'
+  ruta_inventario:  '/Users/armandovera/Desktop/Tablas DBF/MATERIA.DBF'
+  ruta_cat_meseros: '/Users/armandovera/Desktop/Tablas DBF/Codigos meseros1.csv'
+  caracteres_especiales: ['-','+','*','/','{','}',"'"]
+  seleccion_columnas_inventario: ['CLAVE','DESCR','COSTO']
+  seleccion_columnas_notven: ['PLATILLO','NOTVEN','FECHA','CANTIDAD','PRECIO','MESA','MESERO','HORA','PERS','GRUPPLAT','PARTIDA','DESC']
+
+df:  
+  df_columna_platillo: 'PLATILLO'
+  df_columna_precio: 'PRECIO'
+  df_columna_cantidad: 'CANTIDAD'
+  df_columna_fecha: 'FECHA'
+  df_columna_mesero: 'MESERO'
+  df_columna_hora: 'HORA'
+  df_columna_mesa: 'MESA'
+  df_columna_notven: 'NOTVEN'
+  df_columna_pers: 'PERS'
+  df_columna_grupplat: 'GRUPPLAT'
+  df_columna_partida: 'PARTIDA'
+  df_columna_descuento: 'DESC'
+  df_columna_clave: 'CLAVE'
+  df_columna_descr: 'DESCR'
+  df_columna_costo: 'COSTO'
+  df_columna_unidad: 'UNIDAD'
+
+sql:
+  SQL_columna_id: 'id'
+  SQL_columna_clave: 'clave'
+  SQL_columna_precio: 'precio'
+  SQL_columna_cantidad: 'cantidad'
+  SQL_columna_fecha: 'fecha'
+  SQL_columna_mesero: 'mesero'
+  SQL_columna_hora: 'hora'
+  SQL_columna_mesa: 'mesa'
+  SQL_columna_notven: 'notven'
+  SQL_columna_pers: 'pers'
+  SQL_columna_grupplat: 'grupplat'
+  SQL_columna_partida: 'partida'
+  SQL_columna_descuento: 'descuento'
+  SQL_columna_descr: 'descr'
+  SQL_columna_costo: 'costo'
+  SQL_columna_unidad: 'unidad'
+  SQL_columna_dia_vendido: 'dia_vendido'
+  SQL_columna_mes_vendido: 'mes_vendido'
+  SQL_columna_anio_vendido: 'anio_vendido'
+  SQL_columna_utilidad: 'utilidad'
+  SQL_columna_hora_vendido: 'hora_vendido'
+  SQL_columna_nombre_mesero: 'nombre_mesero'
+
+queries:
+  query_ultima_fecha: 'SELECT DISTINCT({0}) as ultima_fecha FROM tbl_maestra ORDER BY {0} DESC LIMIT 1'
+  query_mesero: "SELECT nombre_mesero as nombre,SUM(utilidad) as utilidad, SUM(cantidad*precio) as venta,fecha,
+             SUM(cantidad) filter (WHERE grupplat LIKE 'A%') as volumen_platillos,
+             SUM(cantidad*precio) filter (WHERE grupplat LIKE 'A%') as monto_platillos,
+             SUM(cantidad) filter (WHERE grupplat LIKE 'B%') as volumen_bebidas,
+             SUM(cantidad*precio) filter (WHERE grupplat LIKE 'B%') as monto_bebidas,
+             SUM(cantidad) filter (WHERE grupplat LIKE 'V%') as volumen_vinos,
+             SUM(cantidad*precio) filter (WHERE grupplat LIKE 'V%') as monto_vinos
+             FROM tbl_maestra
+             WHERE fecha= '{0}'
+             GROUP BY nombre_mesero, fecha
+             ORDER BY nombre_mesero ASC"
+  query_producto_mas_vendido: "SELECT descr as nombre, grupplat as grupo_platillo, fecha, 
+            SUM(cantidad) filter (WHERE grupplat LIKE 'A%') as cantidad_platillos, 
+            SUM(cantidad) filter (WHERE grupplat LIKE 'B%') as cantidad_bebidas, 
+            SUM(cantidad) filter (WHERE grupplat LIKE 'V%') as cantidad_vinos 
+            FROM tbl_maestra 
+            WHERE fecha = '{0}' 
+            AND grupplat NOT LIKE 'O%' 
+            AND clave != '11083' AND clave != '2' 
+            GROUP BY descr,grupplat,fecha 
+            ORDER BY grupo_platillo ASC, SUM(cantidad) DESC"
+  query_utilidad_por_hora: "SELECT hora_vendido,sum(utilidad) as utilidad_total,
+            SUM(utilidad) filter (WHERE grupplat LIKE 'A%') as utilidad_platillos,
+            SUM(utilidad) filter (WHERE grupplat LIKE 'B%') as utilidad_bebidas,
+            SUM(utilidad) filter (WHERE grupplat LIKE 'V%') as utilidad_vinos
+            FROM tbl_maestra
+            WHERE fecha = '{0}'
+            AND grupplat NOT LIKE 'O%'
+            AND clave != '11083' AND clave != '2'
+            GROUP BY hora_vendido
+            ORDER BY hora_vendido ASC"
+  query_costo_por_hora: "SELECT hora_vendido,sum(costo) as costo_total,
+            SUM(costo) filter (WHERE grupplat LIKE 'A%') as costo_platillos,
+            SUM(costo) filter (WHERE grupplat LIKE 'B%') as costo_bebidas,
+            SUM(costo) filter (WHERE grupplat LIKE 'V%') as costo_vinos
+            FROM tbl_maestra
+            WHERE fecha = '{0}'
+            AND grupplat NOT LIKE 'O%'
+            AND clave != '11083' AND clave != '2'
+            GROUP BY hora_vendido
+            ORDER BY hora_vendido ASC"
+  query_venta_por_hora: "SELECT hora_vendido as hora, SUM(cantidad*precio) as dinero, SUM(cantidad) as volumen_venta,
+            SUM(cantidad) filter (WHERE grupplat LIKE 'A%') as volumen_venta_platillos_hora,
+            SUM(cantidad) filter (WHERE grupplat LIKE 'B%') as volumen_venta_bebidas_hora,
+            SUM(cantidad) filter (WHERE grupplat LIKE 'V%') as volumen_venta_vinos_hora,
+            SUM(cantidad*precio) filter (WHERE grupplat LIKE 'A%') as monto_venta_platillos_hora,
+            SUM(cantidad*precio) filter (WHERE grupplat LIKE 'B%') as monto_venta_bebidas_hora,
+            SUM(cantidad*precio) filter (WHERE grupplat LIKE 'V%') as monto_venta_vinos_hora
+            FROM tbl_maestra
+            WHERE fecha = '{0}'
+            AND grupplat NOT LIKE 'O%'
+            AND clave != '11083' AND clave != '2'
+            GROUP BY hora_vendido
+            ORDER BY hora_vendido ASC"
+  query_monto_volumen: "SELECT SUM(cantidad) as volumen, SUM(cantidad*precio) as monto, SUM(costo*cantidad) as costo, SUM(utilidad*cantidad) as utilidad
+            FROM tbl_maestra
+            WHERE fecha = '{0}'
+            AND grupplat NOT LIKE 'O%'
+            AND clave != '11083' AND clave != '2'"
+  query_personas: "SELECT sum(a.pers) as personas FROM (SELECT DISTINCT notven, pers FROM tbl_maestra WHERE fecha = '{0}' 
+                   AND nombre_mesero != 'DOMICILIO' GROUP BY notven,pers)a"
+
+queries_historicos:
+  query_mesero_historico: "SELECT nombre_mesero as nombre,SUM(utilidad) as utilidad, SUM(cantidad*precio) as venta,fecha,
+             SUM(cantidad) filter (WHERE grupplat LIKE 'A%') as volumen_platillos,
+             SUM(cantidad*precio) filter (WHERE grupplat LIKE 'A%') as monto_platillos,
+             SUM(cantidad) filter (WHERE grupplat LIKE 'B%') as volumen_bebidas,
+             SUM(cantidad*precio) filter (WHERE grupplat LIKE 'B%') as monto_bebidas,
+             SUM(cantidad) filter (WHERE grupplat LIKE 'V%') as volumen_vinos,
+             SUM(cantidad*precio) filter (WHERE grupplat LIKE 'V%') as monto_vinos
+             FROM tbl_maestra
+             WHERE fecha BETWEEN '{0}' AND '{1}'
+             GROUP BY nombre_mesero, fecha
+             ORDER BY nombre_mesero ASC"
+  query_producto_mas_vendido_historico: "SELECT descr as nombre, grupplat as grupo_platillo, fecha, 
+            SUM(cantidad) filter (WHERE grupplat LIKE 'A%') as cantidad_platillos, 
+            SUM(cantidad) filter (WHERE grupplat LIKE 'B%') as cantidad_bebidas, 
+            SUM(cantidad) filter (WHERE grupplat LIKE 'V%') as cantidad_vinos 
+            FROM tbl_maestra 
+            WHERE fecha BETWEEN '{0}' AND '{1}'
+            AND grupplat NOT LIKE 'O%' 
+            AND clave != '11083' AND clave != '2' 
+            GROUP BY descr,grupplat,fecha 
+            ORDER BY grupo_platillo ASC, SUM(cantidad) DESC"
+  query_utilidad_por_hora_historico: "SELECT hora_vendido,sum(utilidad) as utilidad_total,
+            SUM(utilidad) filter (WHERE grupplat LIKE 'A%') as utilidad_platillos,
+            SUM(utilidad) filter (WHERE grupplat LIKE 'B%') as utilidad_bebidas,
+            SUM(utilidad) filter (WHERE grupplat LIKE 'V%') as utilidad_vinos
+            FROM tbl_maestra
+            WHERE fecha BETWEEN '{0}' AND '{1}'
+            AND grupplat NOT LIKE 'O%'
+            AND clave != '11083' AND clave != '2'
+            GROUP BY hora_vendido
+            ORDER BY hora_vendido ASC"
+  query_costo_por_hora_historico: "SELECT hora_vendido,sum(costo) as costo_total,
+            SUM(costo) filter (WHERE grupplat LIKE 'A%') as costo_platillos,
+            SUM(costo) filter (WHERE grupplat LIKE 'B%') as costo_bebidas,
+            SUM(costo) filter (WHERE grupplat LIKE 'V%') as costo_vinos
+            FROM tbl_maestra
+            WHERE fecha BETWEEN '{0}' AND '{1}'
+            AND grupplat NOT LIKE 'O%'
+            AND clave != '11083' AND clave != '2'
+            GROUP BY hora_vendido
+            ORDER BY hora_vendido ASC"
+  query_venta_por_hora_historico: "SELECT hora_vendido as hora, SUM(cantidad*precio) as dinero, SUM(cantidad) as volumen_venta,
+            SUM(cantidad) filter (WHERE grupplat LIKE 'A%') as volumen_venta_platillos_hora,
+            SUM(cantidad) filter (WHERE grupplat LIKE 'B%') as volumen_venta_bebidas_hora,
+            SUM(cantidad) filter (WHERE grupplat LIKE 'V%') as volumen_venta_vinos_hora,
+            SUM(cantidad*precio) filter (WHERE grupplat LIKE 'A%') as monto_venta_platillos_hora,
+            SUM(cantidad*precio) filter (WHERE grupplat LIKE 'B%') as monto_venta_bebidas_hora,
+            SUM(cantidad*precio) filter (WHERE grupplat LIKE 'V%') as monto_venta_vinos_hora
+            FROM tbl_maestra
+            WHERE fecha BETWEEN '{0}' AND '{1}'
+            AND grupplat NOT LIKE 'O%'
+            AND clave != '11083' AND clave != '2'
+            GROUP BY hora_vendido
+            ORDER BY hora_vendido ASC"
+  query_monto_volumen_historico: "SELECT SUM(cantidad) as volumen, SUM(cantidad*precio) as monto, SUM(costo*cantidad) as costo, 
+            SUM(utilidad*cantidad) as utilidad
+            FROM tbl_maestra
+            WHERE fecha BETWEEN '{0}' AND '{1}'
+            AND grupplat NOT LIKE 'O%'
+            AND clave != '11083' AND clave != '2'"
+  query_personas_historico: "SELECT sum(a.pers) as personas FROM (SELECT DISTINCT notven, pers FROM tbl_maestra WHERE fecha BETWEEN '{0}' AND '{1}'
+                   AND nombre_mesero != 'DOMICILIO' GROUP BY notven,pers)a"
+
+queries_distribucion_demanda:
+  query_distribucion: "SELECT notven,descr,hora,pers,dia_vendido,fecha,utilidad,grupplat,cantidad FROM tbl_maestra 
+                        WHERE fecha BETWEEN '{0}' AND '{1}' ORDER BY notven ASC"
+
+queries_tendencia_venta:
+  query_tendencia: "SELECT descr,cantidad,grupplat,anio_vendido,mes_vendido FROM tbl_maestra WHERE 
+                    grupplat LIKE '{0}'"
+
+queries_estancia:
+  query_estancia: "SELECT notven,hora,pers,mesa FROM tbl_maestra WHERE fecha BETWEEN '{0}' AND '{1}'ORDER BY notven ASC"
+
+nuevo_usuario:
+  query_nuevo_usuario: "INSERT INTO users (nombre,apellido,username,password) VALUES('{0}','{1}','{2}','{3}')"
+  query_eliminar_usuario: "DELETE FROM users WHERE nombre = '{0}' AND apellido = '{1}'"
+  query_seleccion_usuario: "SELECT * FROM users WHERE nombre != 'sudo'"
+
+costos:
+  query_costo: "SELECT fecha,descr,precio,grupplat,mes_vendido,anio_vendido, costo,unidad FROM tbl_maestra WHERE fecha BETWEEN '{0}' AND '{1}' AND precio >1  AND descuento =0 ORDER BY grupplat ASC"
+  query_costos_inventario: "SELECT auxcosp, descr, unidad, grupplat FROM costo_inventario"
+
+  
