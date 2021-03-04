@@ -1,0 +1,40 @@
+{
+    "AWSEBDockerrunVersion": 2,
+    "containerDefinitions": [{
+            "name": "app",
+            "links": [
+                "postgres"
+            ],
+            "image": "flyx126/dashboard",
+            "essential": true,
+            "portMappings": [{
+                "containerPort": 5000,
+                "hostPort": 5000
+            }],
+            "memory": 500
+        },
+        {
+            "environment": [{
+                    "name": "POSTGRES_DB",
+                    "value": "Dashboard-Toscalia"
+                },
+                {
+                    "name": "POSTGRES_PASSWORD",
+                    "value": "Dashboard-Toscalia"
+                },
+                {
+                    "name": "POSTGRES_USER",
+                    "value": "postgres"
+                }
+            ],
+            "name": "postgres",
+            "image": "postgres",
+            "memory": 500,
+            "essential": true,
+            "portMappings": [{
+                "containerPort": 5432,
+                "hostPort": 5432
+            }]
+        }
+    ]
+}

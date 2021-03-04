@@ -11,3 +11,15 @@ script: 'true'
 after_succes:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
   - docker push flyx126/dashboard
+
+deploy:
+  provider: elasticbeanstalk
+  region: us-east-1
+  app: Dashboard
+  env: Dashboard-env
+  bucket_name: elasticbeanstalk-us-east-1-925411602425
+  bucket_path: Dashboard
+  on:
+    branch: master
+  acces_key_id: $AWS_USER
+  secret_acces_key: $AWS_PASSWORD
