@@ -1,0 +1,11 @@
+sudo: required
+
+services:
+  - docker
+
+before_install:
+  - docker build -t flyx126/dashboard .
+
+after_succes:
+  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
+  - docker push flyx126/dashboard
