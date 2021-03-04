@@ -6,6 +6,8 @@ services:
 before_install:
   - docker build -t flyx126/dashboard .
 
+script: 'true'
+
 after_succes:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
   - docker push flyx126/dashboard
