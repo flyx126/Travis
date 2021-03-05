@@ -26,7 +26,7 @@ class Db(object):
         with open(os.environ['PATH_CONFIG']) as file:
             yml=yaml.load(file, Loader=yaml.FullLoader)
         properties=PropertiesDb(yml['db'])
-        connection_string = f'{properties.USER}:{properties.PASSWORD}@localhost:{properties.PORT}/{properties.DATABASE}'
+        connection_string = f'{properties.USER}:{properties.PASSWORD}@postgres:{properties.PORT}/{properties.DATABASE}'
         try:
             engine = create_engine(f'postgresql://{connection_string}')
             engine.connect()
