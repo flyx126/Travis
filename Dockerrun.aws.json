@@ -9,7 +9,7 @@
             "essential": true,
             "portMappings": [{
                 "containerPort": 5000,
-                "hostPort": 5000
+                "hostPort": 80
             }],
             "memory": 100
         },
@@ -20,7 +20,7 @@
                 },
                 {
                     "name": "POSTGRES_PASSWORD",
-                    "value": "Dashboard-Toscalia"
+                    "value": "12345"
                 },
                 {
                     "name": "POSTGRES_USER",
